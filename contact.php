@@ -1,3 +1,18 @@
+<?php
+
+
+if($_POST["message"]) {
+
+
+mail("banditgamestudio@gmail.com", "New Bandit Contact interest",
+
+
+$_POST["message"]. "\nFrom:" . $_POST["text"]. "\nEmail: " . $_POST["email"]);
+
+
+}
+?>
+
 <!DOCTYPE html> <!--ahhh-->
 <html lang="en-US">
     <head>
@@ -8,6 +23,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" crossorigin="anonymous" />
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
+
 
 
         <link href="images/logo/NoTextTransparentSquare.png" rel="icon" type="image/png">
@@ -102,10 +118,7 @@
                     <div class="col-md-8 px-5 border-left" >
                         <h3 class="text--center">Leave Us A Message</h3>
 
-                        <form   action="mailto:bandit@utep.edu"
-                        method="POST"
-                        enctype="multipart/form-data"
-                        name="EmailForm">
+                        <form method="post"  action="contact.php">
                             <div class="mb-3">
                                 <input name="text" class="form-control" id="name" placeholder="Name">
                             </div>
@@ -185,7 +198,7 @@
                             </ul>
                         </div>
                     </div>
-                    
+
                     <hr class="footer-break">
 
                     <div class="footer-copyright text-center">
@@ -194,7 +207,7 @@
                 </div>
               </footer>
         </div> -->
-        
+
 
         <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" crossorigin="anonymous"></script>
