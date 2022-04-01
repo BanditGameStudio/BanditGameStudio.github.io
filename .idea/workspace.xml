@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db071c8e-6b41-4cde-b807-bdd487fbc22e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aboutUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutUs.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/join.html" beforeDir="false" afterPath="$PROJECT_DIR$/join.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,6 +15,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -48,9 +53,29 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.php" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="397" y="263" key="com.intellij.ide.util.TipDialog" timestamp="1646515546610">
+    <state x="320" y="96" key="#Notifications" timestamp="1646961588686">
       <screen x="0" y="25" width="1440" height="818" />
     </state>
-    <state x="397" y="263" key="com.intellij.ide.util.TipDialog/0.25.1440.818@0.25.1440.818" timestamp="1646515546610" />
+    <state x="320" y="96" key="#Notifications/0.25.1440.818@0.25.1440.818" timestamp="1646961588686" />
+    <state x="292" y="33" key="CommitChangelistDialog2" timestamp="1646961621201">
+      <screen x="0" y="25" width="1440" height="818" />
+    </state>
+    <state x="292" y="33" key="CommitChangelistDialog2/0.25.1440.818@0.25.1440.818" timestamp="1646961621201" />
+    <state x="144" y="93" key="MergeDialog" timestamp="1646961557380">
+      <screen x="0" y="25" width="1440" height="818" />
+    </state>
+    <state x="144" y="93" key="MergeDialog/0.25.1440.818@0.25.1440.818" timestamp="1646961557380" />
+    <state x="432" y="154" key="MultipleFileMergeDialog" timestamp="1646961557421">
+      <screen x="0" y="25" width="1440" height="818" />
+    </state>
+    <state x="432" y="154" key="MultipleFileMergeDialog/0.25.1440.818@0.25.1440.818" timestamp="1646961557421" />
+    <state x="397" y="263" key="com.intellij.ide.util.TipDialog" timestamp="1648771590524">
+      <screen x="0" y="25" width="1440" height="818" />
+    </state>
+    <state x="397" y="263" key="com.intellij.ide.util.TipDialog/0.25.1440.818@0.25.1440.818" timestamp="1648771590523" />
+    <state x="506" y="355" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1648771625353">
+      <screen x="0" y="25" width="1440" height="818" />
+    </state>
+    <state x="506" y="355" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.818@0.25.1440.818" timestamp="1648771625353" />
   </component>
 </project>
