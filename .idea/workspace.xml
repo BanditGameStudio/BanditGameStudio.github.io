@@ -4,9 +4,22 @@
     <list default="true" id="db071c8e-6b41-4cde-b807-bdd487fbc22e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aboutUs.html" beforeDir="false" afterPath="$PROJECT_DIR$/aboutUs.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/join.html" beforeDir="false" afterPath="$PROJECT_DIR$/join.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/projects.html" beforeDir="false" afterPath="$PROJECT_DIR$/projects.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/profilePics/animation/Samuel.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/profilePics/animation/Samuel.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/profilePics/levelDesign/Edgar.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/profilePics/levelDesign/Edgar.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/profilePics/marketing/Joseph.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/profilePics/marketing/Joseph.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/profilePics/studioHeads/Caroline.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/profilePics/studioHeads/George.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/profilePics/studioHeads/Hector.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/profilePics/studioHeads/Hector.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/profilePics/studioHeads/Memo.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/profilePics/studioHeads/Sarah.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/profilePics/studioHeads/profile pic 1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/profilePics/studioHeads/profile pic 2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/profilePics/studioHeads/profile pic 3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/profilePics/studioHeads/profile pic 4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/profilePics/studioHeads/profile pic 5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/profilePics/technical/JosueSoto.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/profilePics/technical/JosueSoto.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/profilePics/technical/RobertoDAntoni.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/images/profilePics/technical/RobertoDAntoni.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/individualProjects/ARGaiaTours.html" beforeDir="false" afterPath="$PROJECT_DIR$/individualProjects/ARGaiaTours.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,15 +40,33 @@
   <component name="ProjectId" id="25GLk31HbNDnLsb1BD9cT5cXnpU" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="BanditGameStudio.github.io" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="BanditGameStudio.github.io" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -46,36 +77,26 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1645148615758</updated>
+      <workItem from="1649272335081" duration="1308000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.php" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="320" y="96" key="#Notifications" timestamp="1646961588686">
-      <screen x="0" y="25" width="1440" height="818" />
-    </state>
-    <state x="320" y="96" key="#Notifications/0.25.1440.818@0.25.1440.818" timestamp="1646961588686" />
-    <state x="292" y="33" key="CommitChangelistDialog2" timestamp="1646961621201">
-      <screen x="0" y="25" width="1440" height="818" />
-    </state>
-    <state x="292" y="33" key="CommitChangelistDialog2/0.25.1440.818@0.25.1440.818" timestamp="1646961621201" />
-    <state x="144" y="93" key="MergeDialog" timestamp="1646961557380">
-      <screen x="0" y="25" width="1440" height="818" />
-    </state>
-    <state x="144" y="93" key="MergeDialog/0.25.1440.818@0.25.1440.818" timestamp="1646961557380" />
-    <state x="432" y="154" key="MultipleFileMergeDialog" timestamp="1646961557421">
-      <screen x="0" y="25" width="1440" height="818" />
-    </state>
-    <state x="432" y="154" key="MultipleFileMergeDialog/0.25.1440.818@0.25.1440.818" timestamp="1646961557421" />
-    <state x="397" y="263" key="com.intellij.ide.util.TipDialog" timestamp="1648771590524">
-      <screen x="0" y="25" width="1440" height="818" />
-    </state>
-    <state x="397" y="263" key="com.intellij.ide.util.TipDialog/0.25.1440.818@0.25.1440.818" timestamp="1648771590523" />
-    <state x="506" y="355" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1648771625353">
-      <screen x="0" y="25" width="1440" height="818" />
-    </state>
-    <state x="506" y="355" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.818@0.25.1440.818" timestamp="1648771625353" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
