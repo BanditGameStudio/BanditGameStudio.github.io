@@ -726,12 +726,12 @@ ul.social-network li {
 	display: inline;
 	margin: 0 5px;
 }
-
 .social-network a.icoFacebook {
 	background-color:#3B5998;
 }
-.social-network a.icoTwitter {
-	background-color:#33ccff;
+.social-network a.icoMineTracker {
+	background-color:#FF8200;
+
 }
 .social-network a.icoInstagram {
 	background-color:#2b5b83;
