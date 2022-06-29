@@ -30,6 +30,7 @@
     else {
         echo "ERROR - MESSAGE REJECTED";
     }
+    //I HATE THIS
 
 
 ?>
