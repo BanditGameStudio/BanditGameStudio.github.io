@@ -1,4 +1,4 @@
-<!DOCTYPE html> <!--ahhh-->
+<!DOCTYPE html>
 <html lang="en-US">
     <head>
         <meta charset="utf-8">
@@ -69,7 +69,7 @@
                             <li>
                                 <div class="row">
                                     <p class="col-md-3">
-                                        <i class="far fa-envelope contact-icon" aria-hidden="true"></i>
+                                        <i class="far fa-  contact-icon" aria-hidden="true"></i>
                                     </p>
                                     <div class="col-md-9">
                                         <strong class="important-paragraph">Email</strong>
@@ -83,8 +83,8 @@
                                         <img class="rounded circle" alt="Mine Tracker" width="50" height="50" src="images/clipart/pick.png">
                                     </div>
                                     <div class="col-md-9">
-                                        <strong class="important-paragraph">Mine Tracker</strong>
-                                        <p>https://minetracker.utep.edu/</p>
+                                        <strong class="important-paragraph">MineTracker</strong>
+                                        <p><a href="https://minetracker.utep.edu/" class="mb-0"> https://minetracker.utep.edu/</a> </p>
                                     </div>
                                 </div>
                             </li>
@@ -101,22 +101,20 @@
 
                     <div class="col-md-8 px-5 border-left" >
                         <h3 class="text--center">Leave Us A Message</h3>
-
-                        <form  action="mailto:bandit@utep.edu"
-                        method="POST"
-                        enctype="multipart/form-data"
-                        name="EmailForm">
+        
+                        <form  method = "post" name="contact-form" action="email.php">
                             <div class="mb-3">
-                                <input name="text" class="form-control" id="name" placeholder="Name">
+                                <input name="name" class="form-control" id="name" placeholder="Name" type="text" />
                             </div>
                             <div class="mb-3">
-                                <input name="email" class="form-control" id="email" placeholder="Email">
+                                <input style="cursor:pointer;" name="email" class="form-control" id="email" placeholder="Email" type="text">
                             </div>
                             <div class="mb-3">
                                 <textarea name="message" class="form-control" placeholder="Your Message"></textarea>
                             </div>
-                            <button type="submit" class="btn-light btn-lg mt-md-2 float-right">Send</button>
+                            <input type="submit" value="Send" class="btn-light btn-lg mt-md-2 float-right"/>
                         </form>
+                        
                     </div>
                 </div>
         </div>

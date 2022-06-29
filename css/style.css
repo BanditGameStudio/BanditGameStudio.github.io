@@ -789,9 +789,12 @@ a.socialIcon:hover, .socialHoverClass {
 
 /* Links */
 a,
-a:focus,
+a:focus{
+  color: #7F1911;
+
+}
 a:hover {
-  color: #fff;
+  color: #DBAD51;
 }
 
 /* Custom default button */
