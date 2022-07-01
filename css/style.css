@@ -778,6 +778,41 @@ a.socialIcon:hover, .socialHoverClass {
 	-ms-transition: all 0.8s;
 	transition: all 0.8s;
 }
+.popup{
+  width: 400px;
+  height: 250px;
+  background: #fff;
+  border-color: #7F1911;
+  border-radius: 6px;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.01);
+  text-align: center;
+  padding: 50px 30px 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+}
+.popup2{
+  width: 400px;
+  background: #fff;
+  border-color: #7F1911;
+  border-radius: 6px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+  text-align: center;
+  padding: 30px 30px 30px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+}
+
+.open-popup{
+  top: 50%;
+  transform: translate(-50%, -50%) scale(1.5);
+  visibility: visible;
+}
 
 /*------------------------------------*\
     8. Home
