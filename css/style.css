@@ -35,6 +35,14 @@
     1. GLOBAL STYLES
 \*------------------------------------*/
 
+@font-face {
+  font-family: 'banditos_bold';
+  src: url('ifc_los_banditos-webfont.woff2') format('woff2'),
+       url('ifc_los_banditos-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
     font-family: sans-serif;
     padding-top: 7vh;
@@ -59,6 +67,12 @@ h6 {
   line-height: 1;
 }
 
+.banditos, banditos {
+  color: #7F1911;
+  font-family: banditos_bold;
+  font-size: 80px;
+  text-align: right;
+}
 .h1, h1 {
   font-size: 62px;
 }
@@ -123,7 +137,7 @@ hr {
 }
 
 /* Aligning Text */
-.text--left {
+  .text--left {
     text-align: left !important;
   }
   
@@ -279,6 +293,12 @@ hr {
     font-size: 20px;
     border-bottom: .25rem solid transparent;
 }
+.nav-link-w{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: .25rem solid transparent;
+}
 
 
 .nav-link:hover,
@@ -286,6 +306,13 @@ hr {
   color: #7F1911;
   border-bottom: 2px solid rgba(127, 25, 17, .50);
 }
+
+.nav-link-w:hover,
+.nav-link-w:focus {
+  color: #f5cd7d;
+  border-bottom: 2px solid rgba(245, 205, 125, .75);
+}
+
 
 .nav-item {
     margin-right: 20px;
@@ -309,6 +336,14 @@ hr {
     color: #7F1911;
     font-size: 40px;
 }
+/*
+* V1 Header
+*/
+
+.navbar-v1{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 
 /*
  * Red Header
@@ -427,6 +462,9 @@ hr {
     background-color: #222222;
     color: #ffffff;
     margin-bottom: 0;
+}
+.footer-v1{
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .footer-break {
@@ -591,12 +629,12 @@ transform: translateX(0);
 }
 
 .layer1 {
-  z-index: 1;
-  margin-left: 492px;
+  z-index: 5;
+  /* margin-left: 492px; OLD */
 }
 
 .layer2 {
-  z-index: 2;
+  z-index: 4;
   margin-left: 369px;
 }
 
@@ -606,32 +644,33 @@ transform: translateX(0);
 }
 
 .layer4 {
-  z-index: 4;
+  z-index: 2;
   margin-left: 123px;
 }
 
 .layer5 {
-  z-index: 5;
+  z-index: 1;
 }
 
 .text-layer-1 {
-  margin-left: 508px;
+  /* margin-left: 515px; OLD*/
+  margin-left: 43%;
 }
 
 .text-layer-2 {
-  margin-left: 395px;
+  margin-left: 430px;
 }
 
 .text-layer-3 {
-  margin-left: 272px;
+  margin-left: 305px;
 }
 
 .text-layer-4 {
-  margin-left: 149px;
+  margin-left: 183px;
 }
 
 .text-layer-5 {
-  margin-left: 31px;
+  margin-left: 60px;
 }
 
 .teams-image {
@@ -652,6 +691,14 @@ transform: translateX(0);
   width: 1em; /* Also needed for space (tweak if needed) */
   /* margin-left: -1em; Also needed for space (tweak if needed) */
 
+}
+
+#video-v1{
+  position: absolute;
+  left:0;
+  top: 0;
+  width: 100vw;
+  height: 100vh;
 }
 
 /*------------------------------------*\
@@ -850,6 +897,11 @@ a:hover {
 .home-fullscreen {
   height: 100%;
   background-color: #7F1911;
+}
+
+.home-fullscreen-v1{
+  height: 100%;
+  background-color: #000;
 }
 
 .home {
