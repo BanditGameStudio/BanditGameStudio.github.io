@@ -104,6 +104,10 @@ hr {
   color: #222222;
 }
 
+.text-light{
+  color: #ffffff;
+}
+
 .important-paragraph {
     font-size: 22px;
     line-height: 30px;  
@@ -117,6 +121,29 @@ hr {
     background-color: #ffffff;
     height: 100vh;
     width: 100vw;
+}
+.ar-background{
+  /* background-color: #a97af7;  */
+  background-color: #874aed;
+  /* background-color: #571f9c; */
+  height: 100vh;
+  width: 100vw;
+  margin-top: 0px;
+}
+
+.ar-opacity {
+  background-color: rgb(134, 74, 237);
+  background-color: rgba(134, 74, 237,.6);
+  width: 80%;
+  height: 77.5vh;
+  margin-left: 10%;
+  margin-right: 10%;
+  z-index: 5;
+  border-radius: 30px;
+}
+
+.ar-opacity a {
+  color: #ffffff;
 }
 
 .muted-background {
@@ -229,11 +256,30 @@ hr {
     2. BUTTONS
 \*------------------------------------*/
   
+.icon{
+  background:none;
+}
+
+.icon:hover{
+  background:#222222;
+  border-radius: 20%;
+
+}
 
 .btn-primary {
   background-color: #222222;
   color: #ffffff;
   border: 1px solid #222222;
+  font-size: 20px;
+  padding: 4px 20px;
+  
+  border-radius: 8px;
+}
+
+.flag-primary-transluscent{
+  background-color: rgb(34, 34, 34,1);
+  color: #ffffff;
+  /* border: 1px solid #222222; */
   font-size: 20px;
   padding: 4px 20px;
   
@@ -256,6 +302,8 @@ hr {
     color: #222222;
     border: 1px solid #222222;
 }
+
+
 
 
   

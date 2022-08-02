@@ -48,8 +48,29 @@
 ============================================= -->
     <div class="container my-5 fade-third" style="height:100vh;">
         <div class="row">
-            <video autoplay loop id="video-v1"><source src="images/videos/Copy of Bandit banner Pre Presentation.mp4" type="video/mp4"></video>
+            <video autoplay muted loop id="video-v1"><source src="images/videos/Copy of Bandit banner Pre Presentation.mp4" type="video/mp4"></video>
+            <div class="button">
+                <div clas="rip"></div>
+                </div>
+            <!-- </div>
+            <div class="box"><div class="eye"></div><div class="eye"></div>
+        </div> -->
+           
         </div>
+    
+        <script type="text/javascript">
+            document.querySelector('body').addEventListener('mousemove', magnet);
+            function magnet(){
+                const rip = document.querySelectorAll('.rip');
+                rip.forEach(function(rip){
+                    let x = (rip.getBoundingClientRect().left)+(rip.clientWidth/2);
+                    let y = (rip.getBoundingClientRect().top)+(rip.clientHeight/2);
+                    let radian = Math.atan2(event.pageX-x, event.pageY-y);
+                    let rot = (radian  * (180/Math.PI) * -1) + 270;
+                    rip.style.transform = "rotate(" + rot + "deg)"
+                });
+            }
+        </script>
     </div>
 
     <!-- MEET THE TEAM

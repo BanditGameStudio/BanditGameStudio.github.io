@@ -48,6 +48,14 @@ body {
     padding-top: 7vh;
 }
 
+/* body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: radial-gradient(#f2761e,#ef4921);
+} */
+
 .h1,
 .h2,
 .h3,
@@ -554,12 +562,20 @@ hr {
 \*------------------------------------*/
 
 .card {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   border: 0px;
   border-radius: .76rem;
+  height:60vh;
+  
+
 }
 
 .card-img-top {
-  border-radius: .75rem .75rem 0 0;
+    border-radius: .76rem .76rem 0 0;
+    width: auto;
+    height: auto;
 }
 
 .project-category {
@@ -700,6 +716,107 @@ transform: translateX(0);
   width: 100vw;
   height: 100vh;
 }
+
+
+.box{
+  display: flex;
+}
+
+.box .eye {
+  position: relative;
+  width: 120px;
+  height: 120px;
+  display: block;
+  background: #fff;
+  margin: 0 20px;
+  border-radius: 50%;
+  box-shadow: 0 5px 45px rgba(0,0,0,0.2),
+    inset 0 0 15px #f2761e,
+    inset 0 0 15px #f2761e;
+}
+
+.box .eye::before{
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 35px;
+  transform: translate(-50%, -50%);
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background: #000;
+  border: 10px solid #2196f3;
+  box-sizing: border-box;
+}
+
+
+
+.button{
+  display: flex;
+}
+
+.button .rip{
+  position: relative;
+  /* bottom: 3vh; */
+  /* left: 47.5%; */
+  width: 300px;
+  height: 300px;
+  display: block;
+  background: #050035;
+  margin: 0 600px;
+  border-radius: 50%;
+  box-shadow: 0 5px 45px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 45px rgba(0,0,0,0.2),
+    inset 0 0 15px #fff,
+    inset 0 0 15px #fff;
+}
+
+.button .rip::before {
+  content:'';
+  position: absolute;
+  top: 50%;
+  left:65%;
+  transform: translate(-50%, -50%);
+  width: 100px;
+  height: 100px;
+  background: #a89;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+}
+
+.cursor{
+  position: absolute;
+  background-color: yellow;
+  width: 7px;
+  height: 7px;
+  border-radius: 100%;
+  user-select: none;
+  pointer-events: none;
+  z-index: 10000;
+}
+
+.follower{
+  position: absolute;
+  background-color: rgba(255, 255, 255, .3);
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  z-index: 1;
+  transition: 0.6s cubic-bezier(0.8,-1.3,0.3,2.5) transform, 0.2s 
+  cubic-bezier(0.8, -0.3, 0.3, 1.5) opacity;
+  user-select: none;
+  pointer-events: none;
+  z-index: 10000;
+}
+
+.follower.active{
+  opacity: 0.7;
+  transform: scale(5);
+}
+
+
+
 
 /*------------------------------------*\
     7. Contact Us
