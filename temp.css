@@ -1,0 +1,13 @@
+
+@font-face {
+    font-family: los_banditos;
+    src: url('ifc_los_banditos-webfont.woff2') format('woff2'),
+         url('ifc_los_banditos-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+    font-family: los_banditos;
+    font-size: 60px;
+}
