@@ -1,23 +1,57 @@
 <!DOCTYPE html>
-<html lang="en-US">
-
-    <head>
-        <link rel="stylesheet" type="text/css" href="temp.css">
-        <link href="Borderland Glitch - Icon Square.png" rel="icon" type="image/png">
-        <title>Bandit Game Studio</title>
-    </head>
-    <body style="background-color: black;">
-        <div style = "position: absolute; height: 100vh; width: 100vw; text-align: center; padding-top: 5vh;" >
-            <img src="NoTextTransparentSquare.png" height="300" alt="Bandit Studios">
-            <h1 style = "color: white;">NEW WEBSITE COMING SOON...</h1>
-            <img src="Bandit-Business White.png" height="30" alt="Bandit Studios">
-
-            <h4 style="font-family: Helvetica; color:rgb(25, 1, 1)">February 9th, 2024</h1>
-
-            
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="temp.css">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <title>Strategist</title>
+</head>
+<body style = "background-image: url('Red\ Gradient\ Bkg.png'); background-repeat: no-repeat; background-size: cover;">
+  <div class = "overlay-window">
+    <nav id="navbar-example2" class="navbar navbar-light">
+      <a href="index.html" style="left:3%; position: relative;"><image src = "Bandit-Business White.png" style = "height: 60px;"></image></a>
+      <ul class="nav" style="right: 3%; position: relative;">
+          <li class="navBar-dropdown2">
+            <!-- <a href="javascript:void(0)" class="dropbtn">Sign In</a> -->
+            <button type = "button" id = "projectsBtn" class = "dropbtn" onclick="projectsNav()" >PROJECTS</button>
+            <div class="navBar-dropdown-content" id = "signInBlock">
+              <form id = "signIn" class = "signIn-form">
+                <label for = "signInEmail">Email:</label>
+                <input type = "text" id = "signInEmail"/></br>
+                <label for  = "signInPswd">Password:</label>
+                <input type = "password" id = "signInPswd"/></br>
+                <input type = "submit" class = "index-btn" style = "padding:5px 5px 5px 5px" value = "SIGN IN" ></input>
+              </form>
+            </div>
+          </li>
+      </ul>
+    </nav>
+    </br>
+    <div class ="two" style = "padding: 2% 2% 2.5% 5%;">
+        <img src="NoTextTransparentSquare.png" height="475" alt="Bandit Studios">
+    </div>
+    <div class = "two">
+        <div class = "index-form">
+            <h1>MISSION</h1>
+            <p style = "font-size: 20px;">To be a resource of knowledge and skills for the El Paso community while establishing and cultivating the Video Game Industry locally.</p>
+            <br>
+            <h1>ABOUT</h1>
+            <p style = "font-size: 20px;">We are a student-led organization at the University of Texas at El Paso, who focuses on bringing the world of game development to the El Paso region. As Bandit we are re-shaping the game development learning experience by operating as an industry-standard game studio and facilitating educational resources for the community.</p>
         </div>
-       
-    </body>
+        
+        
+    </div>
 
-
+  </div>
+  
+  <script>
+    function projectsNav() {
+      window.location.href = "projects.html";
+    }
+    </script>
+</body>
 </html>
